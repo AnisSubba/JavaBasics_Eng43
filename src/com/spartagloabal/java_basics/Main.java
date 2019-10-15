@@ -8,13 +8,15 @@ public class Main {
 //         CookieCutter.cookieCutterHandle();
 ////         cookieCutterHandle() has 'sout' funtion in CookieCutter
 
-        GreetingManager friendlyGreeting = new GreetingManager("Bruuuuuuhhhhhh");
-        GreetingManager formalGreeting = new GreetingManager("hello good sir");
-        System.out.println(friendlyGreeting.getOverlyHappyGreeting());
-        System.out.println(formalGreeting.getAngryGreeting());
+//        GreetingManager friendlyGreeting = new GreetingManager("Bruuuuuuhhhhhh");
+//        GreetingManager formalGreeting = new GreetingManager("hello good sir");
+//        System.out.println(friendlyGreeting.getOverlyHappyGreeting());
+//        System.out.println(formalGreeting.getAngryGreeting());
 //        GreetingManager.printGreeting();
 //        greetingManager.setGreeting("yo bob");
 //        System.out.println(greetingManager.getGreeting());
 
+        Reporting may = new Reporting(2,3,2.1f);
+        System.out.println(may.report());
     }
 }
